@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -37,3 +38,44 @@
 2024-12-21T17:54:19.669-07:00  WARN 10476 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2024-12-21T17:54:22.805-07:00  INFO 10476 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2024-12-21T17:54:23.022-07:00  INFO 10476 --- [           main] pet.store.PetStoreApplication            : Started PetStoreApplication in 20.928 seconds (process running for 23.117)
+=======
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.0)
+
+2024-12-21T17:54:03.860-07:00  INFO 10476 --- [           main] pet.store.PetStoreApplication            : Starting PetStoreApplication using Java 21.0.3 with PID 10476 (C:\Users\Python25\sql\pet-store\target\classes started by Python25 in C:\Users\Python25\sql\pet-store)
+2024-12-21T17:54:03.893-07:00  INFO 10476 --- [           main] pet.store.PetStoreApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-21T17:54:06.876-07:00  INFO 10476 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-21T17:54:06.987-07:00  INFO 10476 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 0 JPA repository interfaces.
+2024-12-21T17:54:10.033-07:00  INFO 10476 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-21T17:54:10.106-07:00  INFO 10476 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-21T17:54:10.108-07:00  INFO 10476 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-21T17:54:10.487-07:00  INFO 10476 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-21T17:54:10.492-07:00  INFO 10476 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6371 ms
+2024-12-21T17:54:11.203-07:00  INFO 10476 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-21T17:54:12.714-07:00  INFO 10476 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@12d40609
+2024-12-21T17:54:12.723-07:00  INFO 10476 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-21T17:54:13.058-07:00  INFO 10476 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-21T17:54:13.385-07:00  INFO 10476 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-21T17:54:13.583-07:00  INFO 10476 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-21T17:54:14.934-07:00  INFO 10476 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-21T17:54:15.769-07:00  INFO 10476 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-21T17:54:19.241-07:00  INFO 10476 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-21T17:54:19.258-07:00  INFO 10476 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-21T17:54:19.669-07:00  WARN 10476 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-21T17:54:22.805-07:00  INFO 10476 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-21T17:54:23.022-07:00  INFO 10476 --- [           main] pet.store.PetStoreApplication            : Started PetStoreApplication in 20.928 seconds (process running for 23.117)
+>>>>>>> 5a94e0652bd65826a29fc2c6bf4ca5622fc68caa
