@@ -6,7 +6,6 @@ import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
-import jakarta.persistence.ManyToMany;
 import jakarta.persistence.ManyToOne;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -30,4 +29,9 @@ public class Employee {
 @ManyToOne(cascade = CascadeType.ALL)
 @JoinColumn(name = "pet_store_id")
  private PetStore petStore;
+
+public String getemployeeJobTitle() {
+	// TODO Auto-generated method stub
+	return null;
+}
 }

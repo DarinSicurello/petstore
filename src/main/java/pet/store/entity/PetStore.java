@@ -22,13 +22,13 @@ import lombok.ToString;
 public class PetStore {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long pet_store_Id;
-	private String pet_store_Name;
-	private String pet_store_address;
-	private String pet_store_city;
-	private String pet_store_state;
-	private String pet_store_zip;
-	private String pet_store_phone;
+	private Long petStoreId;
+	private String petStoreName;
+	private String petStoreAddress;
+	private String petStoreCity;
+	private String petStoreState;
+	private String petStoreZip;
+	private String petStorePhone;
 
 	@EqualsAndHashCode.Exclude
 	@ToString.Exclude
