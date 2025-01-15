@@ -62,7 +62,7 @@ public class PetStoreData {
 	@NoArgsConstructor
 
 	public static class PetStoreEmployee {	
-		private Long employeeID;
+		private Long employeeId;
 		private String employeeFirstName;
 		private String employeeLastName;
 		private String employeePhone;
@@ -70,7 +70,7 @@ public class PetStoreData {
 		
 	
 	public PetStoreEmployee (Employee employee) {
-		employeeID = employee.getEmployeeID();
+		employeeId = employee.getEmployeeId();
 		employeeFirstName = employee.getEmployeeFirstName();
 		employeeLastName = employee.getEmployeeLastName();
 		employeePhone = employee.getEmployeePhone();
