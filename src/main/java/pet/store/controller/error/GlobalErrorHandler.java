@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import lombok.extern.slf4j.Slf4j;
-
+//Wk 15 created Global Error Handler
 @RestController
 @Slf4j
 public class GlobalErrorHandler {

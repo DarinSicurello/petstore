@@ -41,7 +41,7 @@ public class PetStoreService {
 	
 
 }
-	
+	//Wk 15 Add Copy Customers and employee
 	private void copyPetStoreFields(PetStore petStore,
 			PetStoreData petStoreData) {
 		petStore.setPetStoreId(petStoreData.getPetStoreId());
@@ -126,7 +126,7 @@ public class PetStoreService {
 						"Pet store with ID=" + petStoreId + " was not found."));
 	}
 	
-
+	//Wk 15 Add  transitional 
 
 @Transactional(readOnly = false)
 public PetStoreEmployee saveEmployee (Long petStoreId,
